@@ -1,0 +1,40 @@
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+
+
+/*products*/
+
+.main_box{
+  width: 100%;
+  border: 1px solid #cecece;
+  height: 400px;
+  margin-top: 1rem;
+}
+
+.img_box{
+  width: 100%;
+  height: 200px;
+ object-fit: cover;
+}
+
+.text_box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 12px 0;
+}
+
+/*cart*/
+
+.img_cart{
+  width: 100%;
+  object-fit: contain;
+  height: 100px;
+}
+
+
